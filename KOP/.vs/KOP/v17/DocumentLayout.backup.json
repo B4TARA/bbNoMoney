@@ -1,44 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{CB4FD253-D1AC-4E74-95EE-D74425A54F4D}|KOP.WEB\\KOP.WEB.csproj|c:\\users\\batureladm\\documents\\github\\bbnomoney\\kop\\kop.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CB4FD253-D1AC-4E74-95EE-D74425A54F4D}|KOP.WEB\\KOP.WEB.csproj|solutionrelative:kop.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB4FD253-D1AC-4E74-95EE-D74425A54F4D}|KOP.WEB\\KOP.WEB.csproj|c:\\users\\batureladm\\documents\\github\\bbnomoney\\kop\\kop.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB4FD253-D1AC-4E74-95EE-D74425A54F4D}|KOP.WEB\\KOP.WEB.csproj|solutionrelative:kop.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DCB326B-5882-4723-B42D-696FAA07DAF1}|KOP.DAL\\KOP.DAL.csproj|c:\\users\\batureladm\\documents\\github\\bbnomoney\\kop\\kop.dal\\entities\\assessmententities\\assessmenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DCB326B-5882-4723-B42D-696FAA07DAF1}|KOP.DAL\\KOP.DAL.csproj|solutionrelative:kop.dal\\entities\\assessmententities\\assessmenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03A3DCFB-718F-49C7-ABE5-63E9F513811F}|KOP.BLL\\KOP.BLL.csproj|c:\\users\\batureladm\\documents\\github\\bbnomoney\\kop\\kop.bll\\services\\supervisorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03A3DCFB-718F-49C7-ABE5-63E9F513811F}|KOP.BLL\\KOP.BLL.csproj|solutionrelative:kop.bll\\services\\supervisorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03A3DCFB-718F-49C7-ABE5-63E9F513811F}|KOP.BLL\\KOP.BLL.csproj|c:\\users\\batureladm\\documents\\github\\bbnomoney\\kop\\kop.bll\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03A3DCFB-718F-49C7-ABE5-63E9F513811F}|KOP.BLL\\KOP.BLL.csproj|solutionrelative:kop.bll\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB4FD253-D1AC-4E74-95EE-D74425A54F4D}|KOP.WEB\\KOP.WEB.csproj|c:\\users\\batureladm\\documents\\github\\bbnomoney\\kop\\kop.web\\views\\report\\gradesreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CB4FD253-D1AC-4E74-95EE-D74425A54F4D}|KOP.WEB\\KOP.WEB.csproj|solutionrelative:kop.web\\views\\report\\gradesreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB4FD253-D1AC-4E74-95EE-D74425A54F4D}|KOP.WEB\\KOP.WEB.csproj|c:\\users\\batureladm\\documents\\github\\bbnomoney\\kop\\kop.web\\wwwroot\\js\\employeescript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{CB4FD253-D1AC-4E74-95EE-D74425A54F4D}|KOP.WEB\\KOP.WEB.csproj|solutionrelative:kop.web\\wwwroot\\js\\employeescript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB4FD253-D1AC-4E74-95EE-D74425A54F4D}|KOP.WEB\\KOP.WEB.csproj|c:\\users\\batureladm\\documents\\github\\bbnomoney\\kop\\kop.web\\views\\employee\\assessmentlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CB4FD253-D1AC-4E74-95EE-D74425A54F4D}|KOP.WEB\\KOP.WEB.csproj|solutionrelative:kop.web\\views\\employee\\assessmentlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB4FD253-D1AC-4E74-95EE-D74425A54F4D}|KOP.WEB\\KOP.WEB.csproj|c:\\users\\batureladm\\documents\\github\\bbnomoney\\kop\\kop.web\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB4FD253-D1AC-4E74-95EE-D74425A54F4D}|KOP.WEB\\KOP.WEB.csproj|solutionrelative:kop.web\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -46,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 54,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,117 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\appsettings.json",
-              "RelativeDocumentMoniker": "KOP.WEB\\appsettings.json",
-              "ToolTip": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\appsettings.json",
-              "RelativeToolTip": "KOP.WEB\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-19T08:12:41.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\Program.cs",
-              "RelativeDocumentMoniker": "KOP.WEB\\Program.cs",
-              "ToolTip": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\Program.cs",
-              "RelativeToolTip": "KOP.WEB\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T07:45:38.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AssessmentType.cs",
-              "DocumentMoniker": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.DAL\\Entities\\AssessmentEntities\\AssessmentType.cs",
-              "RelativeDocumentMoniker": "KOP.DAL\\Entities\\AssessmentEntities\\AssessmentType.cs",
-              "ToolTip": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.DAL\\Entities\\AssessmentEntities\\AssessmentType.cs",
-              "RelativeToolTip": "KOP.DAL\\Entities\\AssessmentEntities\\AssessmentType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T07:00:09.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SupervisorService.cs",
-              "DocumentMoniker": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.BLL\\Services\\SupervisorService.cs",
-              "RelativeDocumentMoniker": "KOP.BLL\\Services\\SupervisorService.cs",
-              "ToolTip": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.BLL\\Services\\SupervisorService.cs",
-              "RelativeToolTip": "KOP.BLL\\Services\\SupervisorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcCAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T07:48:02.799Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ReportService.cs",
-              "DocumentMoniker": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.BLL\\Services\\ReportService.cs",
-              "RelativeDocumentMoniker": "KOP.BLL\\Services\\ReportService.cs",
-              "ToolTip": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.BLL\\Services\\ReportService.cs",
-              "RelativeToolTip": "KOP.BLL\\Services\\ReportService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T07:47:45.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GradesReport.cshtml",
-              "DocumentMoniker": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\Views\\Report\\GradesReport.cshtml",
-              "RelativeDocumentMoniker": "KOP.WEB\\Views\\Report\\GradesReport.cshtml",
-              "ToolTip": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\Views\\Report\\GradesReport.cshtml",
-              "RelativeToolTip": "KOP.WEB\\Views\\Report\\GradesReport.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-14T07:47:19.699Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AssessmentLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\Views\\Employee\\AssessmentLayout.cshtml",
-              "RelativeDocumentMoniker": "KOP.WEB\\Views\\Employee\\AssessmentLayout.cshtml",
-              "ToolTip": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\Views\\Employee\\AssessmentLayout.cshtml",
-              "RelativeToolTip": "KOP.WEB\\Views\\Employee\\AssessmentLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-07T09:45:55.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "KOP.WEB\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "KOP.WEB\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAwwJ4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T09:42:17.975Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "employeeScript.js",
-              "DocumentMoniker": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\employeeScript.js",
-              "RelativeDocumentMoniker": "KOP.WEB\\wwwroot\\js\\employeeScript.js",
-              "ToolTip": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\employeeScript.js",
-              "RelativeToolTip": "KOP.WEB\\wwwroot\\js\\employeeScript.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-07T09:39:16.14Z"
             }
           ]
         }

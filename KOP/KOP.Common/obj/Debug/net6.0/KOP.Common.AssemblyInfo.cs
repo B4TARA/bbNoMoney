@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KOP.Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+408d5878f97c3dad39f24579c033d052018532df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62351314e030874748b0a003e72d8d4e58f8957f")]
 [assembly: System.Reflection.AssemblyProductAttribute("KOP.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KOP.Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
