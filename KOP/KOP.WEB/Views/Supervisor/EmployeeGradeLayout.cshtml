@@ -1,0 +1,129 @@
+﻿@model KOP.WEB.Models.ViewModels.Supervisor.EmployeeGradeLayoutViewModel
+
+@{
+    Layout = null;
+}
+
+<div class="user_info_container margin_container_bottom">
+    <div class="user_info">
+        <div class="title">
+            @Model.EmployeeFullName
+        </div>
+        @foreach (var employeeAttribute in Model.EmployeeAttributes)
+        {
+            <div class="description">
+                @employeeAttribute.Name : @employeeAttribute.Value
+            </div>
+        }
+        <div class="status">
+            @foreach (var grade in Model.LastGrades)
+            {
+                <div class="status_btn_wrapper @grade.HtmlClassName">
+                    @grade.GradeStatusName
+                </div>
+
+                <br />
+            }
+        </div>
+    </div>
+
+    <div class="user_image_wrapper">
+        <div class="user_image" style="background-image:url('@Model.EmployeeImagePath');"></div>
+    </div>
+    <div class="action_btn middle_grey_btn" id="compare_btn" onclick="compareBtnOpenSection()"><i class="fa-solid fa-arrow-right-arrow-left" aria-hidden="true"></i>Сравнить</div>
+</div>
+
+<div class="results_container margin_container_bottom">
+    <div class="container_description">
+        <div class="mid_title">
+            Результаты
+        </div>
+        <div class="mid_description">
+            Здесь отображены показатели
+        </div>
+    </div>
+    <div class="results_info_wrapper">
+        @{
+            int i = 1;
+        }
+        @foreach (var mark in Model.Marks)
+        {
+            <div class="result_wrapper">
+                <div class="mid_title">
+                    ПОКАЗАТЕЛЬ @(i++)
+                    <span class="info_btn" id="info_btn" onclick="popupResult(false, @mark.PlanValue, @mark.Id, @Model.EmployeeId, @mark.IsPercentage.ToString().ToLower())">
+                        <div class="show-modal-btn">
+                            <i class="fa-solid fa-notes-medical" style="color: #ffffff;"></i>
+                        </div>
+                    </span>
+                    
+                </div>
+                <div class="mid_description">
+                    @mark.TypeName
+                </div>
+                <div class="mid_description">
+                    <i class="fa-regular fa-clock"></i>
+                    @mark.Period
+                </div>
+                @if (mark.Result)
+                {
+                    if(mark.IsPercentage)
+                    {
+                        <div class="description green-text">
+                            @mark.PercentageValue %
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="description green-text">
+                            @mark.FactValue / @mark.PlanValue
+                        </div>
+                    }
+                }
+                else
+                {
+                    if (mark.IsPercentage)
+                    {
+                        <div class="description red-text">
+                            @mark.PercentageValue %
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="description red-text">
+                            @mark.FactValue / @mark.PlanValue
+                        </div>
+                    }
+                }
+            </div>
+        }
+    </div>
+</div>
+
+@if (Model.GradeTypes.Any())
+{
+    <div class="container_description margin_container_bottom">
+        <div class="mid_title">
+            Этапы оценки
+        </div>
+        <div class="mid_description">
+            Здесь Вы можете отслеживать, на каком этапе оценки Вы находитесь по кажой из оценок
+        </div>
+    </div>
+}
+
+<div class="list_menu_container">
+    <ul class="list_menu_wrapper nav">
+        @foreach (var gradeType in Model.GradeTypes)
+        {
+            <li class="item_menu">
+                <button class="link_menu grade_type description active" onclick="getGradeType(@gradeType.EmployeeId, @gradeType.Id)">
+                    @gradeType.Name
+                </button>
+            </li>
+        }
+    </ul>
+</div>
+
+<div id="gradeType">
+</div>

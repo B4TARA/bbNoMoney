@@ -1,0 +1,14 @@
+﻿@model KOP.WEB.Models.ViewModels.History.EmployeeGradeHistoryLayoutViewModel
+
+@{
+    Layout = null;
+}
+
+<div class="btns_tab_container margin_container_bottom_small">
+    @foreach (var gradeType in Model.GradeTypes)
+    {
+        <button class="tab_btn" onclick="getEmployeeGradeTypeHistory(@gradeType.Id, @Model.EmployeeId)">
+            @gradeType.Name
+        </button>
+    }
+</div>

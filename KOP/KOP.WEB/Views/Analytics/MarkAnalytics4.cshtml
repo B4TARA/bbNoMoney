@@ -1,0 +1,72 @@
+﻿@model KOP.WEB.Models.ViewModels.Analytics.MarkAnalyticsViewModel
+
+@{
+    Layout = null;
+}
+
+<script>
+    const dataArray5 = [];
+    const labelsArray5 = []
+    const backgroundColors = ['#F12C4E', '#1b74fd', '#f69110', '#5DAC50', '#8B8B8B', '#8B4513', '#28A745']
+
+    @foreach (var period in Model.Periods)
+    {
+        @:labelsArray5.push('@Html.Raw(period)');
+    }
+
+    @for (int i = 0; i < Model.Employees.Count(); i++)
+    {
+        @: var employeeDataArray = [];
+
+        foreach (var value in Model.Employees[i].Values)
+        {
+            @:employeeDataArray.push(@value);
+        }
+
+        @: if (@i < backgroundColors.length) { dataArray5.push({ label: '@Html.Raw(Model.Employees[i].Name)', data: employeeDataArray, backgroundColor: backgroundColors[@i] }); }
+    }
+    
+    const workoutsCtx = document.getElementById('workoutsChart').getContext('2d');
+
+    const workoutsChart = new Chart(workoutsCtx, {
+        type: 'bar',
+        data: {
+            labels: labelsArray5,
+            datasets: dataArray5,
+            borderRadius: 8, // Радиус закругления столбцов
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function (context) {
+                            return context.dataset.label + ': ' + context.raw.toLocaleString();
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    stacked: true,
+                    grid: {
+                        display: false,
+                    },
+                },
+                y: {
+                    stacked: true,
+                    beginAtZero: true,
+                    ticks: {
+                        callback: function (value) {
+                            return value.toLocaleString(); // Форматирование чисел
+                        }
+                    }
+                }
+            }
+        }
+    });
+
+</script>

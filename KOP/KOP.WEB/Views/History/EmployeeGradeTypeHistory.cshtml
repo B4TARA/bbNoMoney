@@ -1,0 +1,120 @@
+﻿@model KOP.WEB.Models.ViewModels.History.EmployeeGradeTypeHistoryViewModel
+
+@{
+    Layout = null;
+}
+
+<div class="list_users_archive_container">
+    <div class="list_division_users_wrapper">
+        <table class="table_users history">
+            <thead class="table_header">
+                <tr>
+                    <th class="table_header_elem">#</th>
+                    <th class="table_header_elem">Номер оценки</th>
+                    <th class="table_header_elem">Дата начала оценки</th>
+                    <th class="table_header_elem">Дата окончания оценки</th>
+                    <th class="table_header_elem">Дата следующей оценки</th>
+                    <th class="table_header_elem">Статус оценки</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int i = 1;
+                }
+                @foreach (var grade in Model.Grades)
+                {
+                    <tr>
+                        <td>
+                            @(i++)
+                        </td>
+                        <td>
+                            @grade.Number
+                        </td>
+                        <td>
+                            @grade.StartDate
+                        </td>
+                        <td>
+                            @grade.EndDate
+                        </td>
+                        <td>
+                            @grade.NextGradeDate
+                        </td>
+                        <td class="status">
+                            <div class="status_btn_wrapper @grade.HtmlClassName">
+                                @grade.GradeStatusName
+                            </div>
+                        </td>
+                    </tr>
+
+
+                    <tr class="user_info_table_path">
+                        <td>
+                            <div class="actions_main_wrapper">
+
+
+                                <div class="action_wrapper">
+                                    <div class="accept_block_wraper">
+                                        <img src="~/image/accept_arrow.svg" alt="accept_arrow">
+                                    </div>
+                                    <div class="role_info_wrapper">
+                                        <div class="small_description">
+                                            @Model.EmployeFullName
+                                        </div>
+                                        @if (grade.EmployeeStateBeforeGrade == null)
+                                        {
+                                            <div class="small_title">
+                                                Нет информации
+                                            </div>
+                                        }
+                                        else
+                                        {
+                                            @foreach (var stateAttribute in grade.EmployeeStateBeforeGrade.EmployeeStateAttributes)
+                                            {
+                                                <div class="small_title">
+                                                    @stateAttribute.Name : @stateAttribute.Value
+                                                </div>
+                                            }
+                                        }
+                                    </div>
+                                </div>
+
+
+                                <img src="~/image/arrow_right.svg" alt="arrow">
+
+
+                                <div class="action_wrapper">
+                                    <div class="accept_block_wraper">
+                                        <img src="~/image/accept_arrow.svg" alt="accept_arrow">
+                                    </div>
+                                    <div class="role_info_wrapper">
+                                        <div class="small_description">
+                                            @Model.EmployeFullName
+                                        </div>
+                                        @if (grade.EmployeeStateAfterGrade == null)
+                                        {
+                                            <!-- НАДО ПОМЕНЯТЬ СТИЛИ (НАЗВАНИЯ)-->
+                                            <div class="small_title">
+                                                Нет информации
+                                            </div>
+                                        }
+                                        else
+                                        {
+                                            @foreach (var stateAttribute in grade.EmployeeStateAfterGrade.EmployeeStateAttributes)
+                                            {
+                                                <div class="small_title">
+                                                    @stateAttribute.Name : @stateAttribute.Value
+                                                </div>
+                                            }
+                                        }
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </td>
+                        
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

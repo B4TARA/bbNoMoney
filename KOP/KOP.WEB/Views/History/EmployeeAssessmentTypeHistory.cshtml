@@ -1,0 +1,135 @@
+﻿@model KOP.WEB.Models.ViewModels.History.EmployeeAssessmentTypeHistoryViewModel
+
+@{
+    Layout = null;
+}
+
+<div class="list_users_archive_container">
+    <div class="list_division_users_wrapper">
+        <table class="table_users history">
+            <thead class="table_header">
+                <tr>
+                    <th class="table_header_elem">#</th>
+                    <th class="table_header_elem">Номер оценки</th>
+                    <th class="table_header_elem">Дата начала оценки</th>
+                    <th class="table_header_elem">Дата окончания оценки</th>
+                    <th class="table_header_elem">Дата следующей оценки</th>
+                    <th class="table_header_elem">Статус оценки</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int i = 1;
+                }
+                @foreach (var assessment in Model.Assessments)
+                {
+                    <tr>
+                        <td>
+                            @(i++)
+                        </td>
+                        <td>
+                            @assessment.Number
+                        </td>
+                        <td>
+                            @assessment.StartDate
+                        </td>
+                        <td>
+                            @assessment.EndDate
+                        </td>
+                        <td>
+                            @assessment.NextAssessmentDate
+                        </td>
+                        <td>
+                            @if (assessment.SystemStatus == KOP.Common.Enums.SystemStatuses.PENDING)
+                            {
+                                <div>
+                                    В процессе оценки
+                                </div>
+                            }
+                            else
+                            {
+                                <div>
+                                    Завершена
+                                </div>
+                            }
+                        </td>
+                    </tr>
+                    @foreach (var assessmentResult in assessment.AssessmentResults)
+                    {
+                        <div class="result_assessment_user_wrapper">
+                            <div class="user_assessment_wrapper">
+                                <div class="dropdown_assessment_wrapper" onclick="openDropdownList(this)">
+                                    <div class="user_info_container assessment">
+
+                                        <div class="user_image" style="background-image:url('@assessmentResult.Judge.ImagePath');"></div>
+
+                                        <div class="user_info">
+                                            <div class="mid_title">
+                                                @assessmentResult.Judge.FullName
+                                            </div>
+                                        </div>
+                                        <div class="title gray">
+                                            @assessmentResult.Sum
+                                        </div>
+                                    </div>
+                                    <span class="arrow-dwn_assessment">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </span>
+                                </div>
+
+                                <div class="list-items_assessment">
+                                    <div class="assessment_container">
+                                        <div class="questions_main_wrapper">
+                                            <div class="question_wrapper">
+                                                <table class="table_assessment">
+                                                    <thead class="table_header">
+                                                        <tr>
+                                                            <th class="table_header_elem">
+                                                                #
+                                                            </th>
+
+                                                            @foreach (var assessmentMatrixHeaderElement in assessmentResult.ElementsByRow[0])
+                                                            {
+                                                                <th class="table_header_elem">
+                                                                    @assessmentMatrixHeaderElement.Value
+                                                                </th>
+                                                            }
+
+                                                            <th class="table_header_elem">
+                                                                Оценка
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+
+                                                    <tbody>
+                                                        @for (int j = 1; j < assessmentResult.ElementsByRow.Count(); j++)
+                                                        {
+                                                            <tr>
+                                                                <td>
+                                                                    @j
+                                                                </td>
+
+                                                                @foreach (var assessmentMatrixElement in assessmentResult.ElementsByRow[j])
+                                                                {
+                                                                    <td class="mid_description">@assessmentMatrixElement.Value</td>
+                                                                }
+
+                                                                <td>
+                                                                    <div class="mid_description">@assessmentResult.Values.First(x => x.AssessmentMatrixRow == j).Value</div>
+                                                                </td>
+                                                            </tr>
+                                                        }
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

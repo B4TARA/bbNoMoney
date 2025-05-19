@@ -1,0 +1,275 @@
+﻿@model KOP.WEB.Models.ViewModels.Analytics.AnalyticsLayoutViewModel
+
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<div class="home-content">
+    <div class="home_content_info">
+        <div class="home_content_info_icon">
+            <i class="fa-solid fa-folder"></i>
+        </div>
+        <div class="mid_title">
+            Аналитика и витрина данных
+        </div>
+    </div>
+</div>
+
+<div id="markAnalytics1">
+</div>
+
+<div id="markAnalytics2">
+</div>
+
+<div id="markAnalytics3">
+</div>
+
+<div id="markAnalytics4">
+</div>
+
+<div id="gradeAnalytics">
+</div>
+
+<div id="assessmentAnalytics">
+</div>
+
+<div class="main_container_content ">
+    <div class="dashboard-container">
+
+        <div class="dashboard-item activity">
+            <div class="header-wrapper">
+                <div class="description">
+                    Выполнение плана по кредитным продуктам
+                </div>
+                <div class="header-btns-wrapper">
+                    <div class="custom-select-politics">
+                        <div class="select-box-politics">
+                            <span class="select-label-politics">Октябрь</span>
+                            <span class="select-arrow-politics"><img src="/image/chevron-down-grey.svg" alt=""></span>
+                        </div>
+                        <div class="select-options-politics">
+                            <div class="option-politics">
+                                <span class="icon-politics">Октябрь</span>
+                            </div>
+                            <div class="option-politics">
+                                <span class="icon-politics">Ноябрь</span>
+                            </div>
+                            <div class="option-politics">
+                                <span class="icon-politics">Декабрь</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <button class="expand-btn" data-target="activityChart"><i class="fa-solid fa-expand" style="color: #b5b5c2;"></i></button>
+                </div>           
+            </div>      
+            <canvas id="activityChart" data-modal="activityModal"></canvas>
+        </div>
+
+        <div class="dashboard-item steps">
+            <div class="header-wrapper">
+                <div class="description">
+                    Количество активных клиентов
+                </div>
+                <div class="header-btns-wrapper">
+                    <div class="custom-select-politics">
+                        <div class="select-box-politics">
+                            <span class="select-label-politics">Октябрь</span>
+                            <span class="select-arrow-politics"><img src="/image/chevron-down-grey.svg" alt=""></span>
+                        </div>
+                        <div class="select-options-politics">
+                            <div class="option-politics">
+                                <span class="icon-politics">Октябрь</span>
+                            </div>
+                            <div class="option-politics">
+                                <span class="icon-politics">Ноябрь</span>
+                            </div>
+                            <div class="option-politics">
+                                <span class="icon-politics">Декабрь</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <button class="expand-btn" data-target="stepsChart"><i class="fa-solid fa-expand" style="color: #b5b5c2;"></i></button>
+                </div>         
+            </div>
+            <canvas id="stepsChart" data-modal="stepsModal"></canvas>
+        </div>
+
+        <div class="dashboard-item steps">
+            <div class="header-wrapper">
+                <div class="description">
+                    Выполнение плана по кредитным продуктам
+                </div>
+                <div class="header-btns-wrapper">
+                    <div class="custom-select-politics">
+                        <div class="select-box-politics">
+                            <span class="select-label-politics">Октябрь</span>
+                            <span class="select-arrow-politics"><img src="/image/chevron-down-grey.svg" alt=""></span>
+                        </div>
+                        <div class="select-options-politics">
+                            <div class="option-politics">
+                                <span class="icon-politics">Октябрь</span>
+                            </div>
+                            <div class="option-politics">
+                                <span class="icon-politics">Ноябрь</span>
+                            </div>
+                            <div class="option-politics">
+                                <span class="icon-politics">Декабрь</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <button class="expand-btn" data-target="stepsChart"><i class="fa-solid fa-expand" style="color: #b5b5c2;"></i></button>
+                </div>
+            </div>
+            <canvas id="stepsChart3" data-modal="stepsModal"></canvas>
+        </div>
+
+        <div class="dashboard-item recommended-workouts">
+            <div class="header-wrapper">
+                <div class="description">
+                    Срочная и просроченная задолженность сотрудников по долям
+                </div>
+                    <div class="header-btns-wrapper">
+                        <div class="custom-select-politics">
+                            <div class="select-box-politics">
+                                <span class="select-label-politics">Октябрь</span>
+                                <span class="select-arrow-politics"><img src="/image/chevron-down-grey.svg" alt=""></span>
+                            </div>
+                            <div class="select-options-politics">
+                                <div class="option-politics">
+                                    <span class="icon-politics">Октябрь</span>
+                                </div>
+                                <div class="option-politics">
+                                    <span class="icon-politics">Ноябрь</span>
+                                </div>
+                                <div class="option-politics">
+                                    <span class="icon-politics">Декабрь</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    <button class="expand-btn" data-target="caloriesChart"><i class="fa-solid fa-expand" style="color: #b5b5c2;"></i></button>
+                    </div>   
+            </div>
+            @*<div class="canvas-wrapper">
+                <canvas id="caloriesChart" data-modal="workoutsModal"></canvas>
+                
+            </div>*@
+            <canvas id="workoutsChart" data-modal="workoutsModal"></canvas>
+            
+        </div>
+
+        @*<div class="dashboard-item recommended-workouts">
+            <div class="header-wrapper">
+                <div class="description">
+                    Срочная и просроченная задолженность
+                </div>
+                <div class="header-btns-wrapper">
+                    <div class="custom-select-politics">
+                        <div class="select-box-politics">
+                            <span class="select-label-politics">Октябрь</span>
+                            <span class="select-arrow-politics"><img src="/image/chevron-down-grey.svg" alt=""></span>
+                        </div>
+                        <div class="select-options-politics">
+                            <div class="option-politics">
+                                <span class="icon-politics">Октябрь</span>
+                            </div>
+                            <div class="option-politics">
+                                <span class="icon-politics">Ноябрь</span>
+                            </div>
+                            <div class="option-politics">
+                                <span class="icon-politics">Декабрь</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <button class="expand-btn" data-target="caloriesChart"><i class="fa-solid fa-expand" style="color: #b5b5c2;"></i></button>
+                </div>
+            </div>
+            <canvas id="workoutsChart" data-modal="workoutsModal"></canvas>
+        </div>*@
+
+        <div class="dashboard-item active-challenges">
+            <div class="header-wrapper">
+                <div class="description">
+                    Компетенции по направлениям
+                </div>
+                <div class="header-btns-wrapper">
+                    <div class="custom-select-politics">
+                        <div class="select-box-politics">
+                            <span class="select-label-politics">Октябрь</span>
+                            <span class="select-arrow-politics"><img src="/image/chevron-down-grey.svg" alt=""></span>
+                        </div>
+                        <div class="select-options-politics">
+                            <div class="option-politics">
+                                <span class="icon-politics">Октябрь</span>
+                            </div>
+                            <div class="option-politics">
+                                <span class="icon-politics">Ноябрь</span>
+                            </div>
+                            <div class="option-politics">
+                                <span class="icon-politics">Декабрь</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <button class="expand-btn" data-target="chart4"><i class="fa-solid fa-expand" style="color: #b5b5c2;"></i></button>
+                </div>
+            </div>
+            @*<canvas id="chart4" data-modal="chart4Modal"></canvas>*@
+            <canvas id="chart4" data-modal="chart4Modal"></canvas>
+        </div>
+
+        <div id="chartModal" class="modal">
+            <span class="close"><i class="fa-solid fa-xmark" style="color: #ffffff;"></i></span>
+            <div class="modal-content">
+                <canvas id="modalChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="/js/analyticsScript.js"></script>
+
+<script>
+
+    function loadMarkAnalytics1() {
+        $('#markAnalytics1').load(`/Analytics/GetMarkAnalytics1`)
+    }
+
+    loadMarkAnalytics1();
+
+    function loadMarkAnalytics2() {
+        $('#markAnalytics2').load(`/Analytics/GetMarkAnalytics2`)
+    }
+
+    loadMarkAnalytics2();
+
+    function loadMarkAnalytics3() {
+        $('#markAnalytics3').load(`/Analytics/GetMarkAnalytics3`)
+    }
+
+    loadMarkAnalytics3();
+
+    function loadMarkAnalytics4() {
+        $('#markAnalytics4').load(`/Analytics/GetMarkAnalytics4`)
+    }
+
+    loadMarkAnalytics4();
+
+    function loadGradeAnalytics() {
+        $('#gradeAnalytics').load(`/Analytics/GetGradeAnalytics`)
+    }
+
+    loadGradeAnalytics();
+
+    function loadAssessmentAnalytics() {
+        $('#assessmentAnalytics').load(`/Analytics/GetAssessmentAnalytics`)
+    }
+
+    loadAssessmentAnalytics();
+
+</script>

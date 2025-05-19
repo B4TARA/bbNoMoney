@@ -1,0 +1,61 @@
+﻿@model KOP.WEB.Models.ViewModels.History.EmployeeMarkTypeHistoryViewModel
+
+@{
+    Layout = null;
+}
+
+<div class="list_users_archive_container">
+    <div class="list_division_users_wrapper">
+        <table class="table_users history">
+            <thead class="table_header">
+                <tr>
+                    <th class="table_header_elem">#</th>
+                    <th class="table_header_elem">Тип</th>
+                    <th class="table_header_elem">План</th>
+                    <th class="table_header_elem">Итог</th>
+                    <th class="table_header_elem">Статус</th>
+                    <th class="table_header_elem">Период</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int i = 1;
+                }
+                @foreach (var mark in Model.Marks)
+                {
+                    <tr>
+                        <td>
+                            @(i++)
+                        </td>
+                        <td>
+                            @mark.TypeName
+                        </td>
+                        <td>
+                            @mark.PlanValue
+                        </td>
+                        <td>
+                            @mark.FactValue
+                        </td>
+                        <td>
+                            @if (mark.Result)
+                            {
+                                <div>
+                                    Выполнено
+                                </div>
+                            }
+                            else
+                            {
+                                <div>
+                                    Не выполнено
+                                </div>
+                            }
+                        </td>
+                        <td>
+                            @mark.Period
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

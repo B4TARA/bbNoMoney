@@ -1,0 +1,41 @@
+﻿@model KOP.WEB.Models.ViewModels.Employee.GradeViewModel
+
+@{
+    Layout = null;
+}
+
+<div class="container_description">
+    <div class="mid_title">
+        Информация об оценке
+    </div>
+    <div class="mid_description">
+        Номер оценки - @Model.Grade.Number
+    </div>
+    <div class="mid_description">
+        Статус оценки - @Model.Grade.GradeStatusName
+    </div>
+    <div class="mid_description">
+        Дата начала оценки - @Model.Grade.StartDate
+    </div>
+    <div class="mid_description">
+        Дата окончания оценки - @Model.Grade.EndDate
+    </div>
+    <div class="mid_description">
+        Дата следующей оценки - @Model.Grade.NextGradeDate
+    </div>
+</div>
+
+@foreach (var comment in Model.Grade.Comments.Where(x => x.IsFeedback == true))
+{
+    <div class="comment_area_container margin_container_bottom_middle">
+        <div class="container_description">
+            <div class="mid_title">
+                Обратная связь
+            </div>
+            <div class="mid_description">
+                Обратную связь оставил(-а) @comment.SupervisorName - @comment.SupervisorPosition
+            </div>
+        </div>
+        <div class="description">@comment.Text</div>
+    </div>
+}

@@ -1,0 +1,82 @@
+﻿@model KOP.WEB.Models.ViewModels.Supervisor.AppointedGradesLayoutViewModel
+
+@{
+    Layout = null;
+}
+
+<section class="tab_filter_search_container margin_container_bottom_small">
+    <div class="searchbox_main_wrapper boss">
+        <input type="text" class="searchbox" id="searchbox" placeholder="Введите ФИО" onkeyup="searchBoxKeyUp(this,'classicTable')">
+        <i class="fa-solid fa-magnifying-glass searchbox_icon"></i>
+    </div>
+</section>
+
+<section class="list_division_users_main_wrapper">
+    @if (Model.Employees.Count() > 0)
+    {
+        <table class="table_users">
+            <thead class="table_header">
+                <tr>
+                    <th class="table_header_elem checkbox"></th>
+                    <th class="table_header_elem number">#</th>
+                    <th class="table_header_elem">ФИО</th>
+                    <th class="table_header_elem">Роль</th>
+                    <th class="table_header_elem">Тип оценки</th>
+                    <th class="table_header_elem date">Дата следующей оценки</th>
+                    <th class="table_header_elem">Статус</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int i = 1;
+                }
+                @foreach (var employee in Model.Employees)
+                {
+                    <tr Id="@employee.Id" onclick="getEmployeeLayout(@employee.Id)" flagHide="">
+                        <td>
+                            <label class="input-container checkbox-type">
+                                <input type="checkbox">
+                                <div class="checkmark-block">
+                                    <i class="fa-solid fa-check" style="color: #ffffff;"></i>
+                                </div>
+                            </label>
+                        </td>
+                        <td>
+                            @(i++)
+                        </td>
+                        <td class="fullname">
+                            @employee.FullName
+                        </td>
+                        <td>
+                            @employee.Role
+                        </td>
+                        <td>
+                            @foreach (var grade in employee.LastGrades)
+                            {
+
+                                @grade.GradeTypeName
+                                <br />
+                            }
+                        </td>
+                        <td>
+                            @foreach (var grade in employee.LastGrades)
+                            {
+                                @grade.NextGradeDate
+                            }
+                        </td>
+                        <td class="status">
+                            @foreach (var grade in employee.LastGrades)
+                            {
+                                <div class="status_btn_wrapper @grade.HtmlClassName">
+                                    @grade.GradeStatusName
+                                </div>
+
+                                <br />
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</section>

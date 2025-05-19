@@ -1,0 +1,191 @@
+﻿@model KOP.WEB.Models.ViewModels.Employee.SelfAssessmentViewModel
+
+@{
+    Layout = null;
+}
+
+<div class="assessment_user_tab_container">
+    <div class="choose_assessment_user_container margin_container_bottom">
+
+        @if (Model.SelfAssessmentResult.SystemStatus == KOP.Common.Enums.SystemStatuses.NOT_EXIST)
+        {
+            <div class="undefined_page_wrapper">
+                <div class="title">
+                    Самооценка не назначена
+                </div>
+                <img src="/image/undefinedpage.svg" alt="default_page">
+            </div>
+        }
+
+        else if (Model.SelfAssessmentResult.SystemStatus == KOP.Common.Enums.SystemStatuses.COMPLETED)
+        {
+            <div class="container_description">
+                <div class="mid_title ">
+                    Результат
+                </div>
+                @if ((Model.SelfAssessmentResult.AverageResult) >= Model.SelfAssessmentResult.PlanValue)
+                {
+                    <div class="title green-text" style="font-size:40px;">
+                        @Model.SelfAssessmentResult.AverageResult / @Model.SelfAssessmentResult.PlanValue
+                    </div>
+                }
+                else
+                {
+                    <div class="title red-text" style="font-size:40px;">
+                        @Model.SelfAssessmentResult.AverageResult / @Model.SelfAssessmentResult.PlanValue
+                    </div>
+                }
+                
+                <div class="mid_description">
+                    Здесь будут отображены результаты оценки
+                </div>
+            </div>
+
+            <table class="table_assessment">
+                <thead class="table_header">
+                    <tr>
+                        <th class="table_header_elem">
+                            #
+                        </th>
+
+                        @foreach (var assessmentMatrixHeaderElement in Model.SelfAssessmentResult.ElementsByRow[0])
+                        {
+                            <th class="table_header_elem">
+                                @assessmentMatrixHeaderElement.Value
+                            </th>
+                        }
+
+                        <th class="table_header_elem">
+                            Средняя оценка
+                        </th>
+
+                        <th class="table_header_elem">
+                            Моя оценка
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @for (int i = 1; i < Model.SelfAssessmentResult.ElementsByRow.Count(); i++)
+                    {
+                        <tr>
+                            <td>
+                                @i
+                            </td>
+
+                            @foreach (var assessmentMatrixElement in Model.SelfAssessmentResult.ElementsByRow[i])
+                            {
+                                <td class="mid_description">@assessmentMatrixElement.Value</td>
+                            }
+
+                            <td>
+                                <div class="mid_description">@Model.SelfAssessmentResult.AverageValues.First(x => x.AssessmentMatrixRow == i).Value</div>
+                            </td>
+
+                            <td>
+                                <div class="mid_description">@Model.SelfAssessmentResult.Values.First(x => x.AssessmentMatrixRow == i).Value</div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            @*<div class="gauge-container">
+                <div class="gauge">
+                    <div class="gauge-fill"></div>
+                    <div class="gauge-cover"></div>
+                </div>
+                <div class="gauge-value">0%</div>
+            </div>
+
+
+
+            <input type="range" min="0" max="100" value="20" id="gauge-input">*@
+        
+        }
+
+        else if (Model.SelfAssessmentResult.SystemStatus == KOP.Common.Enums.SystemStatuses.PENDING)
+        {
+            <div class="assessment_container">
+                <div class="questions_main_wrapper">
+                    <div class="question_wrapper">
+                        @if (Model.SelfAssessmentResult.ElementsByRow.Count() == 0)
+                        {
+                            <div class="container_description">
+                                <div class="mid_title">
+                                    Заполните матрицу качественной оценки
+                                </div>
+
+                                <img src="/image/undefinedpage.svg" alt="default_page">
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="container_description">
+                                <div class="mid_title">
+                                    Качественная оценка
+                                </div>
+                                <div class="mid_description">
+                                    Внесите качественную оценку
+                                </div>
+                            </div>
+
+                            <table id="table_assessment" class="table_assessment" colleagueId="@Model.SelfAssessmentResult.Judge.Id">
+                                <thead class="table_header">
+                                    <tr>
+                                        <th class="table_header_elem">
+                                            #
+                                        </th>
+
+                                        @foreach (var assessmentMatrixHeaderElement in Model.SelfAssessmentResult.ElementsByRow[0])
+                                        {
+                                            <th class="table_header_elem">@assessmentMatrixHeaderElement.Value</th>
+                                        }
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    @for (int i = 1; i < Model.SelfAssessmentResult.ElementsByRow.Count(); i++)
+                                    {
+                                        <tr>
+                                            <td>@i</td>
+
+                                            @foreach (var assessmentMatrixElement in Model.SelfAssessmentResult.ElementsByRow[i])
+                                            {
+                                                <td class="mid_description">@assessmentMatrixElement.Value</td>
+                                            }
+
+                                            <td>
+                                                <div class="grade_wrapper">
+                                                    <div class="grade">
+                                                        <div class="number_wrapper">
+
+                                                            <button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown();">-</button>
+
+                                                            <input required="required" type="number" min="@Model.SelfAssessmentResult.MinValue" max="@Model.SelfAssessmentResult.MaxValue" value="1" class="mid_description input_assessment_value">
+
+                                                            <button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp();">+</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="grade_error">
+                                                        <i class="fa-solid fa-circle-exclamation" style="color: #f33030;"></i>
+                                                        <div class="grade_error_description"></div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+
+                            <div typeAssessment="userJudged" class="action_btn primary_btn assessment" onclick="assessEmployee(this, @Model.SelfAssessmentResult.AssessmentId, @Model.SelfAssessmentResult.Id, @Model.SelfAssessmentResult.Judged.Id, true)">
+                                Сохранить
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>

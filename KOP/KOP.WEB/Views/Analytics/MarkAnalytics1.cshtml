@@ -1,0 +1,74 @@
+﻿@model KOP.WEB.Models.ViewModels.Analytics.MarkAnalyticsViewModel
+
+@{
+    Layout = null;
+}
+
+<script>
+
+    const dataArray1 = [];
+    const labelsArray1 = []
+
+    @foreach (var mark in Model.Marks)
+    {
+        var result = ((double)mark.SumValue / 5000) * 100 ;
+
+        @:dataArray1.push(@result);
+
+        var label = mark.Period;
+
+        @:labelsArray1.push('@Html.Raw(label)');
+    }
+
+    const activityCtx = document.getElementById('activityChart').getContext('2d');
+
+    const activityChart = new Chart(activityCtx, {
+        type: 'bar',
+        data: {
+            labels: labelsArray1,
+            datasets: [{
+                data: dataArray1, // Пример данных
+                backgroundColor: [
+                    '#F12C4E', '#4C6CF7', '#f69110', '#5DAC50', '#8B8B8B', '#8B4513', '#28A745'
+                ],
+                //borderRadius: 8, // Радиус закругления столбцов
+                barThickness: 60 // Толщина столбцов
+            }]
+        },
+        options: {
+            scales: {
+                x: {
+                    grid: {
+                        display: false
+                    },
+                    ticks: {
+                        color: '#A0A0A0',
+                        font: {
+                            size: 12
+                        }
+                    }
+                },
+                y: {
+                    beginAtZero: true,
+                    display: false, // Скрываем ось Y
+                    grid: {
+                        display: false
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    display: false // Скрываем легенду
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function (context) {
+                            return context.raw + ' %';
+                        }
+                    }
+                }
+            }
+        }
+    });
+
+</script>

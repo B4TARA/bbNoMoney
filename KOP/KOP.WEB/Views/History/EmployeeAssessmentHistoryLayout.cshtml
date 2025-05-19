@@ -1,0 +1,14 @@
+﻿@model KOP.WEB.Models.ViewModels.History.EmployeeAssessmentHistoryLayoutViewModel
+
+@{
+    Layout = null;
+}
+
+<div class="btns_tab_container margin_container_bottom_small">
+    @foreach (var assessmentType in Model.AssessmentTypes)
+    {
+        <button class="tab_btn" onclick="getEmployeeAssessmentTypeHistory(@assessmentType.Id, @Model.EmployeeId)">
+            @assessmentType.Name
+        </button>
+    }
+</div>

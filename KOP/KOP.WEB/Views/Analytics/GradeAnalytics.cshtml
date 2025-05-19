@@ -1,0 +1,39 @@
+﻿@model KOP.WEB.Models.ViewModels.Analytics.GradeAnalyticsViewModel
+
+@{
+    Layout = null;
+}
+
+<script>
+
+    // Calories Chart
+    const caloriesCtx = document.getElementById('caloriesChart').getContext('2d');
+
+    const caloriesChart = new Chart(caloriesCtx, {
+        type: 'doughnut',
+        data: {
+            labels: [' Успешно', ' Неуспешно'],
+            datasets: [{
+                data: [@Model.acceptedGradesCount, @Model.declinedGradesCount], // Пример данных: 70% сожжено, 30% осталось
+                backgroundColor: ['#4A6CF7', '#E5E5E5'],
+                borderWidth: 2,
+                cutout: '75%', // Размер выреза для создания эффекта кольца
+            }]
+        },
+        options: {
+            plugins: {
+                legend: {
+                    display: false // Скрываем легенду
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function (context) {
+                            return context.label + ': ' + context.raw + ' ед.';
+                        }
+                    }
+                }
+            }
+        }
+    });
+
+</script>

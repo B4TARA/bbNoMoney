@@ -1,0 +1,89 @@
+﻿@model KOP.WEB.Models.ViewModels.Analytics.MarkAnalyticsViewModel
+
+@{
+    Layout = null;
+}
+
+<script>
+    const dataArray2 = [];
+    const labelsArray2 = []
+
+    @foreach (var mark in Model.Marks)
+    {
+        var result = mark.SumValue;
+
+        @:dataArray2.push(@result);
+
+        var label = mark.Period;
+
+        @:labelsArray2.push('@Html.Raw(label)');
+    }
+    
+    const stepsCtx = document.getElementById('stepsChart').getContext('2d');
+
+    // Создаем градиент для заливки под графиком
+    const gradient = stepsCtx.createLinearGradient(0, 0, 0, 300);
+    gradient.addColorStop(0, 'rgba(74, 108, 247, 0.4)');
+    gradient.addColorStop(1, 'rgba(255, 255, 255, 0)');
+
+    const stepsChart = new Chart(stepsCtx, {
+        type: 'line',
+        data: {
+            labels: labelsArray2,
+            datasets: [{
+                data: dataArray2, // Данные
+                borderColor: '#4A6CF7',
+                backgroundColor: gradient, // Применяем градиент
+                fill: true, // Заполнение под линией
+                tension: 0.4, // Плавные линии
+                pointRadius: 4, // Радиус точек на линии
+                pointBackgroundColor: '#fff',
+                pointBorderColor: '#4A6CF7',
+                pointHoverRadius: 5
+            }]
+        },
+        options: {
+            layout: {
+                // padding: {
+                //     left: 10 // Отступ слева
+                // }
+            },
+            scales: {
+                x: {
+                    grid: {
+                        display: false,
+                    },
+                    border: {
+                        display: false, // Скрываем нижнюю линию оси X
+                    },
+                    ticks: {
+                        color: '#A0A0A0',
+                        font: {
+                            size: 12
+                        },
+                    }
+                },
+                y: {
+                    beginAtZero: true,
+                    display: false, // Скрываем ось Y
+                    grid: {
+                        display: false
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    display: false // Скрываем легенду
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function (context) {
+                            return context.raw + ' ед.';
+                        }
+                    }
+                }
+            }
+        }
+    });
+
+</script>

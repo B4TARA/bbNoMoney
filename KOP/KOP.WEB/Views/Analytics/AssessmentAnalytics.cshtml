@@ -1,0 +1,69 @@
+﻿@model KOP.WEB.Models.ViewModels.Analytics.AssessmentAnalyticsViewModel
+
+@{
+    Layout = null;
+}
+
+<script>
+
+    const dataArray4 = [];
+    const labelsArray4 = []
+
+    @foreach (var competence in Model.CompetencesNames)
+    {
+        @:labelsArray4.push('@Html.Raw(competence)');
+    }
+
+    @foreach (var value in Model.CompetentiesValues)
+    {
+        @:dataArray4.push(@Html.Raw(value.ToString(System.Globalization.CultureInfo.InvariantCulture)));
+    }
+
+        console.log(dataArray4);
+
+    // Chart
+    const chart4Ctx = document.getElementById('chart4').getContext('2d');
+
+    const chart4Chart = new Chart(chart4Ctx, {
+        type: 'polarArea',
+        data: {
+            labels: labelsArray4,
+            datasets: [
+                {
+                    label: 'Dataset 1',
+                    data: dataArray4,
+                    backgroundColor: [
+                        '#ffc107',
+                        '#f69110',
+                        '#5DAC50',
+                        '#1b74fd',
+                        '#7b68ee'
+                    ]
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    display: true,
+                    position: 'top',
+                },
+                title: {
+                    display: false,
+                    text: 'Chart.js Polar Area Chart'
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(tooltipItem) {
+                            const label = labelsArray4[tooltipItem.dataIndex];
+                            const value = tooltipItem.raw;
+                            return `${value}`;
+                        }
+                    }
+                }
+            }
+        }
+    });
+
+</script>

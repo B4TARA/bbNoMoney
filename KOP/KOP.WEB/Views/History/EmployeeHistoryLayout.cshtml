@@ -1,0 +1,50 @@
+﻿@model KOP.WEB.Models.ViewModels.History.EmployeeHistoryLayoutViewModel
+
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<div class="home-content">
+    <div class="home_content_info">
+        <div class="home_content_info_icon">
+            <i class="fa-solid fa-folder"></i>
+        </div>
+        <div class="bredcrumbs_wrapper">
+            <div class="mid_title nonactive bredcrumb_item">
+                Архив
+            </div>
+            <div>
+                <i class="fa-solid fa-chevron-right" style="color: #4d4d4d;"></i>
+            </div>
+            <div class="mid_title bredcrumb_item active">
+                @Model.EmployeeFullName
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="main_container_content history" id="main_container_content">
+    <div class="btns_tab_container margin_container_bottom_small">
+        <button class="tab_btn" onclick="getEmployeeGradeHistoryLayout(@Model.EmployeeId)">
+            Количественные оценки
+        </button>
+        <button class="tab_btn" onclick="getEmployeeAssessmentHistoryLayout(@Model.EmployeeId)">
+            Качественные оценки
+        </button>
+        @foreach (var markType in Model.MarkTypes)
+        {
+            <button class="tab_btn" onclick="getEmployeeMarkTypeHistory(@markType.Id, @Model.EmployeeId)">
+                @markType.Name
+            </button>
+        }
+    </div>
+
+    <div id="employeeHistoryItem">
+    </div>
+
+    <div id="employeeHistoryItemContent">
+    </div>
+</div>
+
+<script src="/js/historyScript.js"></script>

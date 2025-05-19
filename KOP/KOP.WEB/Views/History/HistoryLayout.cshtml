@@ -1,0 +1,98 @@
+﻿@model KOP.WEB.Models.ViewModels.History.HistoryLayoutViewModel
+
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<div class="home-content">
+    <div class="home_content_info">
+        <div class="home_content_info_icon">
+            <i class="fa-solid fa-folder"></i>
+        </div>
+        <div class="mid_title">
+            Архив
+        </div>
+    </div>
+</div>
+
+<div class="main_container_content history" id="main_container_content">
+    <section class="tab_filter_search_container margin_container_bottom_small">
+        <div class="searchbox_main_wrapper">
+            <input type="text" class="searchbox" id="searchbox" placeholder="Введите ФИО" onkeyup="searchBoxKeyUp(this,'classicTable')">
+            <i class="fa-solid fa-magnifying-glass searchbox_icon"></i>
+        </div>
+    </section>
+
+    @if (Model.SubordinateEmployees.Count() > 0)
+    {
+        <table class="table_users history">
+            <thead class="table_header">
+                <tr>
+                    <th class="table_header_elem number">#</th>
+                    <th class="table_header_elem">ФИО</th>
+                    <th class="table_header_elem">Роль</th>
+                    <th class="table_header_elem">Тип оценки</th>
+                    <th class="table_header_elem date">Дата следующей оценки</th>
+                    <th class="table_header_elem">Статус</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int i = 1;
+                }
+
+                @foreach (var employee in Model.SubordinateEmployees)
+                {
+                    <tr Id="@employee.Id" onclick="getEmployeeHistoryLayout(@employee.Id)" flagHide="">
+                        <td>
+                            @(i++)
+                        </td>
+                        <td class="fullname">
+                            
+                            <div class="table_user_img" style="background-image:url('@employee.ImagePath');"></div>
+                            <span>
+                                @employee.FullName
+                            </span>
+                            
+                        </td>
+                        <td>
+                            @employee.Role
+                        </td>
+                        <td>
+                            @foreach (var grade in employee.LastGrades)
+                            {
+                                <div>
+                                    @grade.GradeTypeName
+                                </div>
+
+                                <br />
+                            }
+                        </td>
+                        <td>
+                            @foreach (var grade in employee.LastGrades)
+                            {
+                                <div>
+                                    @grade.NextGradeDate
+                                </div>
+
+                                <br />
+                            }
+                        </td>
+                        <td class="status">
+                            @foreach (var grade in employee.LastGrades)
+                            {
+                                <div class="status_btn_wrapper @grade.HtmlClassName">
+                                    @grade.GradeStatusName
+                                </div>
+
+                                <br/>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+<script src="/js/historyScript.js"></script>

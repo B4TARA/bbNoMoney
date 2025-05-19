@@ -1,0 +1,102 @@
+﻿@model KOP.WEB.Models.ViewModels.Employee.GradeLayoutViewModel
+
+@{
+    Layout = null;
+}
+
+<div class="user_info_container margin_container_bottom">
+    <div class="user_info">
+        <div class="title">
+            @Model.EmployeeFullName
+        </div>
+        @foreach (var employeeAttribute in Model.EmployeeAttributes)
+        {
+            <div class="description">
+                @employeeAttribute.Name : @employeeAttribute.Value
+            </div>
+        }
+    </div>
+
+    <div class="user_image_wrapper">
+        <div class="user_image" style="background-image:url('@Model.EmployeeImagePath');"></div>
+    </div>
+</div>
+
+<div class="results_container margin_container_bottom">
+    <div class="container_description">
+        <div class="mid_title">
+            Результаты
+        </div>
+        <div class="mid_description">
+            Здесь отображены показатели
+        </div>
+    </div>
+    @{
+            int i = 1;
+        }
+    <div class="results_info_wrapper">
+        @foreach (var mark in Model.Marks)
+        {
+            <div class="result_wrapper">
+                <div class="mid_title">
+                    ПОКАЗАТЕЛЬ @(i++)
+                </div>
+                <div class="mid_description">
+                    @mark.TypeName
+                </div>
+                <div class="mid_description">
+                    <i class="fa-regular fa-clock"></i>
+                    @mark.Period
+                </div>
+                @if (mark.Result)
+                {
+                    if (mark.IsPercentage)
+                    {
+                        <div class="description green-text">
+                            @mark.PercentageValue %
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="description green-text">
+                            @mark.FactValue / @mark.PlanValue
+                        </div>
+                    }
+                }
+                else
+                {
+                    if (mark.IsPercentage)
+                    {
+                        <div class="description red-text">
+                            @mark.PercentageValue %
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="description red-text">
+                            @mark.FactValue / @mark.PlanValue
+                        </div>
+                    }
+                }
+            </div>
+        }
+    </div>
+</div>
+
+<div class="list_menu_container">
+    <ul class="list_menu_wrapper nav">
+        @foreach (var gradeType in Model.GradeTypes)
+        {
+            <li class="item_menu">
+                <button class="link_menu grade_type description active" onclick="getGradeType(@gradeType.EmployeeId, @gradeType.Id)">
+                    @gradeType.Name
+                </button>
+            </li>
+        }
+    </ul>
+</div>
+
+
+<div id="gradeType">
+
+</div>

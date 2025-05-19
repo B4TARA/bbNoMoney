@@ -1,0 +1,28 @@
+﻿@model KOP.WEB.Models.ViewModels.Employee.SelfAssessmentLayoutViewModel
+
+@{
+    Layout = null;
+}
+
+@if (Model.LastAssessments.Count() != 0)
+{
+    @foreach (var assessment in Model.LastAssessments)
+    {
+        @*<button onclick="getAssessment(@assessment.EmployeeId, @assessment.Id)">
+            @assessment.AssessmentTypeName
+        </button>*@
+    }
+}
+else
+{
+    <div class="undefined_page_wrapper">
+        <div class="title">
+            Качественные оценки не назначены
+        </div>
+        <img src="/image/undefinedpage.svg" alt="default_page">
+    </div>
+}
+
+<div id="lastAssessment">
+
+</div>
