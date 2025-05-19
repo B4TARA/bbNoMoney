@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KOP.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60525c12e1f61aaa0b4990aad2626b67a02bf821")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+408d5878f97c3dad39f24579c033d052018532df")]
 [assembly: System.Reflection.AssemblyProductAttribute("KOP.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KOP.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,843 @@
+﻿-- DROP SCHEMA public;
+
+CREATE SCHEMA public AUTHORIZATION pg_database_owner;
+
+COMMENT ON SCHEMA public IS 'standard public schema';
+
+-- DROP SEQUENCE public."AssessmentIntervalMatrices_Id_seq";
+
+CREATE SEQUENCE public."AssessmentIntervalMatrices_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."AssessmentIntervals_Id_seq";
+
+CREATE SEQUENCE public."AssessmentIntervals_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."AssessmentMatrices_Id_seq";
+
+CREATE SEQUENCE public."AssessmentMatrices_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."AssessmentMatrixElements_Id_seq";
+
+CREATE SEQUENCE public."AssessmentMatrixElements_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."AssessmentResultValues_Id_seq";
+
+CREATE SEQUENCE public."AssessmentResultValues_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."AssessmentResults_Id_seq";
+
+CREATE SEQUENCE public."AssessmentResults_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."AssessmentTypes_Id_seq";
+
+CREATE SEQUENCE public."AssessmentTypes_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."Assessments_Id_seq";
+
+CREATE SEQUENCE public."Assessments_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."Attributes_Id_seq";
+
+CREATE SEQUENCE public."Attributes_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."Comments_Id_seq";
+
+CREATE SEQUENCE public."Comments_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."EmployeeStates_Id_seq";
+
+CREATE SEQUENCE public."EmployeeStates_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."Employees_Id_seq";
+
+CREATE SEQUENCE public."Employees_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."GradeIntervalMatrices_Id_seq";
+
+CREATE SEQUENCE public."GradeIntervalMatrices_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."GradeIntervals_Id_seq";
+
+CREATE SEQUENCE public."GradeIntervals_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."GradeMatrices_Id_seq";
+
+CREATE SEQUENCE public."GradeMatrices_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."GradeMatrixColumns_Id_seq";
+
+CREATE SEQUENCE public."GradeMatrixColumns_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."GradeResults_Id_seq";
+
+CREATE SEQUENCE public."GradeResults_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."GradeRouteGroups_Id_seq";
+
+CREATE SEQUENCE public."GradeRouteGroups_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."GradeRoutes_Id_seq";
+
+CREATE SEQUENCE public."GradeRoutes_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."GradeStatuses_Id_seq";
+
+CREATE SEQUENCE public."GradeStatuses_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."GradeTypes_Id_seq";
+
+CREATE SEQUENCE public."GradeTypes_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."Grades_Id_seq";
+
+CREATE SEQUENCE public."Grades_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."MarkTypes_Id_seq";
+
+CREATE SEQUENCE public."MarkTypes_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."Marks_Id_seq";
+
+CREATE SEQUENCE public."Marks_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."ModuleTypes_Id_seq";
+
+CREATE SEQUENCE public."ModuleTypes_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."Modules_Id_seq";
+
+CREATE SEQUENCE public."Modules_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."Notifications_Id_seq";
+
+CREATE SEQUENCE public."Notifications_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;
+-- DROP SEQUENCE public."Roles_Id_seq";
+
+CREATE SEQUENCE public."Roles_Id_seq"
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	START 1
+	CACHE 1
+	NO CYCLE;-- public."AssessmentIntervalMatrices" определение
+
+-- Drop table
+
+-- DROP TABLE public."AssessmentIntervalMatrices";
+
+CREATE TABLE public."AssessmentIntervalMatrices" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_AssessmentIntervalMatrices" PRIMARY KEY ("Id")
+);
+
+
+-- public."AssessmentMatrices" определение
+
+-- Drop table
+
+-- DROP TABLE public."AssessmentMatrices";
+
+CREATE TABLE public."AssessmentMatrices" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"MinAssessmentMatrixResultValue" int4 NOT NULL,
+	"MaxAssessmentMatrixResultValue" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_AssessmentMatrices" PRIMARY KEY ("Id")
+);
+
+
+-- public."Attributes" определение
+
+-- Drop table
+
+-- DROP TABLE public."Attributes";
+
+CREATE TABLE public."Attributes" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"Name" text NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_Attributes" PRIMARY KEY ("Id")
+);
+
+
+-- public."EmployeeStates" определение
+
+-- Drop table
+
+-- DROP TABLE public."EmployeeStates";
+
+CREATE TABLE public."EmployeeStates" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"EmployeeId" int4 NOT NULL,
+	"GradeId" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_EmployeeStates" PRIMARY KEY ("Id")
+);
+
+
+-- public."GradeIntervalMatrices" определение
+
+-- Drop table
+
+-- DROP TABLE public."GradeIntervalMatrices";
+
+CREATE TABLE public."GradeIntervalMatrices" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_GradeIntervalMatrices" PRIMARY KEY ("Id")
+);
+
+
+-- public."GradeMatrices" определение
+
+-- Drop table
+
+-- DROP TABLE public."GradeMatrices";
+
+CREATE TABLE public."GradeMatrices" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_GradeMatrices" PRIMARY KEY ("Id")
+);
+
+
+-- public."GradeRoutes" определение
+
+-- Drop table
+
+-- DROP TABLE public."GradeRoutes";
+
+CREATE TABLE public."GradeRoutes" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_GradeRoutes" PRIMARY KEY ("Id")
+);
+
+
+-- public."GradeStatuses" определение
+
+-- Drop table
+
+-- DROP TABLE public."GradeStatuses";
+
+CREATE TABLE public."GradeStatuses" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"Name" text NOT NULL,
+	"HtmlClassName" text NOT NULL,
+	"SystemStatus" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_GradeStatuses" PRIMARY KEY ("Id")
+);
+
+
+-- public."MarkTypes" определение
+
+-- Drop table
+
+-- DROP TABLE public."MarkTypes";
+
+CREATE TABLE public."MarkTypes" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"Name" text NOT NULL,
+	"PlanValue" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	"IsPercentage" bool NOT NULL,
+	CONSTRAINT "PK_MarkTypes" PRIMARY KEY ("Id")
+);
+
+
+-- public."ModuleTypes" определение
+
+-- Drop table
+
+-- DROP TABLE public."ModuleTypes";
+
+CREATE TABLE public."ModuleTypes" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"Name" text NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_ModuleTypes" PRIMARY KEY ("Id")
+);
+
+
+-- public."Notifications" определение
+
+-- Drop table
+
+-- DROP TABLE public."Notifications";
+
+CREATE TABLE public."Notifications" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_Notifications" PRIMARY KEY ("Id")
+);
+
+
+-- public."AssessmentIntervals" определение
+
+-- Drop table
+
+-- DROP TABLE public."AssessmentIntervals";
+
+CREATE TABLE public."AssessmentIntervals" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"AssessmentNumber" int4 NOT NULL,
+	"NextAssessmentMonthInterval" int4 NOT NULL,
+	"AssessmentIntervalMatrixId" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_AssessmentIntervals" PRIMARY KEY ("Id"),
+	CONSTRAINT "FK_AssessmentIntervals_AssessmentIntervalMatrices_AssessmentIn~" FOREIGN KEY ("AssessmentIntervalMatrixId") REFERENCES public."AssessmentIntervalMatrices"("Id") ON DELETE CASCADE
+);
+CREATE INDEX "IX_AssessmentIntervals_AssessmentIntervalMatrixId" ON public."AssessmentIntervals" USING btree ("AssessmentIntervalMatrixId");
+
+
+-- public."AssessmentMatrixElements" определение
+
+-- Drop table
+
+-- DROP TABLE public."AssessmentMatrixElements";
+
+CREATE TABLE public."AssessmentMatrixElements" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"Row" int4 NOT NULL,
+	"Column" int4 NOT NULL,
+	"Value" text NOT NULL,
+	"MatrixId" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_AssessmentMatrixElements" PRIMARY KEY ("Id"),
+	CONSTRAINT "FK_AssessmentMatrixElements_AssessmentMatrices_MatrixId" FOREIGN KEY ("MatrixId") REFERENCES public."AssessmentMatrices"("Id") ON DELETE CASCADE
+);
+CREATE INDEX "IX_AssessmentMatrixElements_MatrixId" ON public."AssessmentMatrixElements" USING btree ("MatrixId");
+
+
+-- public."AssessmentTypes" определение
+
+-- Drop table
+
+-- DROP TABLE public."AssessmentTypes";
+
+CREATE TABLE public."AssessmentTypes" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"Name" text NOT NULL,
+	"AssessmentMatrixId" int4 NOT NULL,
+	"AssessmentIntervalMatrixId" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	"PlanValue" int4 NOT NULL,
+	"NumberOfAssessments" int4 NULL,
+	CONSTRAINT "PK_AssessmentTypes" PRIMARY KEY ("Id"),
+	CONSTRAINT "FK_AssessmentTypes_AssessmentIntervalMatrices_AssessmentInterv~" FOREIGN KEY ("AssessmentIntervalMatrixId") REFERENCES public."AssessmentIntervalMatrices"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_AssessmentTypes_AssessmentMatrices_AssessmentMatrixId" FOREIGN KEY ("AssessmentMatrixId") REFERENCES public."AssessmentMatrices"("Id") ON DELETE CASCADE
+);
+CREATE INDEX "IX_AssessmentTypes_AssessmentIntervalMatrixId" ON public."AssessmentTypes" USING btree ("AssessmentIntervalMatrixId");
+CREATE INDEX "IX_AssessmentTypes_AssessmentMatrixId" ON public."AssessmentTypes" USING btree ("AssessmentMatrixId");
+
+
+-- public."EmployeeStateAttributes" определение
+
+-- Drop table
+
+-- DROP TABLE public."EmployeeStateAttributes";
+
+CREATE TABLE public."EmployeeStateAttributes" (
+	"EmployeeStateId" int4 NOT NULL,
+	"AttributeId" int4 NOT NULL,
+	"Value" text NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_EmployeeStateAttributes" PRIMARY KEY ("EmployeeStateId", "AttributeId"),
+	CONSTRAINT "FK_EmployeeStateAttributes_Attributes_AttributeId" FOREIGN KEY ("AttributeId") REFERENCES public."Attributes"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_EmployeeStateAttributes_EmployeeStates_EmployeeStateId" FOREIGN KEY ("EmployeeStateId") REFERENCES public."EmployeeStates"("Id") ON DELETE CASCADE
+);
+CREATE INDEX "IX_EmployeeStateAttributes_AttributeId" ON public."EmployeeStateAttributes" USING btree ("AttributeId");
+
+
+-- public."GradeIntervals" определение
+
+-- Drop table
+
+-- DROP TABLE public."GradeIntervals";
+
+CREATE TABLE public."GradeIntervals" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"GradeNumber" int4 NOT NULL,
+	"NextGradeMonthIntervalAccepted" int4 NOT NULL,
+	"NextGradeMonthIntervalDeclined" int4 NOT NULL,
+	"GradeIntervalMatrixId" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_GradeIntervals" PRIMARY KEY ("Id"),
+	CONSTRAINT "FK_GradeIntervals_GradeIntervalMatrices_GradeIntervalMatrixId" FOREIGN KEY ("GradeIntervalMatrixId") REFERENCES public."GradeIntervalMatrices"("Id") ON DELETE CASCADE
+);
+CREATE INDEX "IX_GradeIntervals_GradeIntervalMatrixId" ON public."GradeIntervals" USING btree ("GradeIntervalMatrixId");
+
+
+-- public."GradeMatrixColumns" определение
+
+-- Drop table
+
+-- DROP TABLE public."GradeMatrixColumns";
+
+CREATE TABLE public."GradeMatrixColumns" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"PassedGradeNumber" int4 NOT NULL,
+	"NewValue" text NOT NULL,
+	"AttributeId" int4 NOT NULL,
+	"GradeMatrixId" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_GradeMatrixColumns" PRIMARY KEY ("Id"),
+	CONSTRAINT "FK_GradeMatrixColumns_Attributes_AttributeId" FOREIGN KEY ("AttributeId") REFERENCES public."Attributes"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_GradeMatrixColumns_GradeMatrices_GradeMatrixId" FOREIGN KEY ("GradeMatrixId") REFERENCES public."GradeMatrices"("Id") ON DELETE CASCADE
+);
+CREATE INDEX "IX_GradeMatrixColumns_AttributeId" ON public."GradeMatrixColumns" USING btree ("AttributeId");
+CREATE INDEX "IX_GradeMatrixColumns_GradeMatrixId" ON public."GradeMatrixColumns" USING btree ("GradeMatrixId");
+
+
+-- public."GradeRouteGroups" определение
+
+-- Drop table
+
+-- DROP TABLE public."GradeRouteGroups";
+
+CREATE TABLE public."GradeRouteGroups" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"QueueNumber" int4 NOT NULL,
+	"Name" text NOT NULL,
+	"RequiredAcceptancesNumber" int4 NOT NULL,
+	"GradeStatusId" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	"GradeRouteId" int4 NULL,
+	CONSTRAINT "PK_GradeRouteGroups" PRIMARY KEY ("Id"),
+	CONSTRAINT "FK_GradeRouteGroups_GradeRoutes_GradeRouteId" FOREIGN KEY ("GradeRouteId") REFERENCES public."GradeRoutes"("Id"),
+	CONSTRAINT "FK_GradeRouteGroups_GradeStatuses_GradeStatusId" FOREIGN KEY ("GradeStatusId") REFERENCES public."GradeStatuses"("Id") ON DELETE CASCADE
+);
+CREATE INDEX "IX_GradeRouteGroups_GradeRouteId" ON public."GradeRouteGroups" USING btree ("GradeRouteId");
+CREATE INDEX "IX_GradeRouteGroups_GradeStatusId" ON public."GradeRouteGroups" USING btree ("GradeStatusId");
+
+
+-- public."GradeTypes" определение
+
+-- Drop table
+
+-- DROP TABLE public."GradeTypes";
+
+CREATE TABLE public."GradeTypes" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"Name" text NOT NULL,
+	"NumberOfGrades" int4 NOT NULL,
+	"GradeRouteId" int4 NOT NULL,
+	"GradeMatrixId" int4 NOT NULL,
+	"GradeIntervalMatrixId" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_GradeTypes" PRIMARY KEY ("Id"),
+	CONSTRAINT "FK_GradeTypes_GradeIntervalMatrices_GradeIntervalMatrixId" FOREIGN KEY ("GradeIntervalMatrixId") REFERENCES public."GradeIntervalMatrices"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_GradeTypes_GradeMatrices_GradeMatrixId" FOREIGN KEY ("GradeMatrixId") REFERENCES public."GradeMatrices"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_GradeTypes_GradeRoutes_GradeRouteId" FOREIGN KEY ("GradeRouteId") REFERENCES public."GradeRoutes"("Id") ON DELETE CASCADE
+);
+CREATE INDEX "IX_GradeTypes_GradeIntervalMatrixId" ON public."GradeTypes" USING btree ("GradeIntervalMatrixId");
+CREATE INDEX "IX_GradeTypes_GradeMatrixId" ON public."GradeTypes" USING btree ("GradeMatrixId");
+CREATE INDEX "IX_GradeTypes_GradeRouteId" ON public."GradeTypes" USING btree ("GradeRouteId");
+
+
+-- public."Modules" определение
+
+-- Drop table
+
+-- DROP TABLE public."Modules";
+
+CREATE TABLE public."Modules" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"Name" text NOT NULL,
+	"ModuleTypeId" int4 NOT NULL,
+	"ParentId" int4 NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_Modules" PRIMARY KEY ("Id"),
+	CONSTRAINT "FK_Modules_ModuleTypes_ModuleTypeId" FOREIGN KEY ("ModuleTypeId") REFERENCES public."ModuleTypes"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_Modules_Modules_ParentId" FOREIGN KEY ("ParentId") REFERENCES public."Modules"("Id")
+);
+CREATE INDEX "IX_Modules_ModuleTypeId" ON public."Modules" USING btree ("ModuleTypeId");
+CREATE INDEX "IX_Modules_ParentId" ON public."Modules" USING btree ("ParentId");
+
+
+-- public."Roles" определение
+
+-- Drop table
+
+-- DROP TABLE public."Roles";
+
+CREATE TABLE public."Roles" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"Name" text NOT NULL,
+	"ParentId" int4 NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_Roles" PRIMARY KEY ("Id"),
+	CONSTRAINT "FK_Roles_Roles_ParentId" FOREIGN KEY ("ParentId") REFERENCES public."Roles"("Id")
+);
+CREATE INDEX "IX_Roles_ParentId" ON public."Roles" USING btree ("ParentId");
+
+
+-- public."Employees" определение
+
+-- Drop table
+
+-- DROP TABLE public."Employees";
+
+CREATE TABLE public."Employees" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"FullName" text NOT NULL,
+	"Login" text NOT NULL,
+	"Password" text NOT NULL,
+	"Email" text NOT NULL,
+	"ImagePath" text NOT NULL,
+	"IsSuspended" bool NOT NULL,
+	"ModuleId" int4 NOT NULL,
+	"RoleId" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_Employees" PRIMARY KEY ("Id"),
+	CONSTRAINT "FK_Employees_Modules_ModuleId" FOREIGN KEY ("ModuleId") REFERENCES public."Modules"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_Employees_Roles_RoleId" FOREIGN KEY ("RoleId") REFERENCES public."Roles"("Id") ON DELETE CASCADE
+);
+CREATE INDEX "IX_Employees_ModuleId" ON public."Employees" USING btree ("ModuleId");
+CREATE INDEX "IX_Employees_RoleId" ON public."Employees" USING btree ("RoleId");
+
+
+-- public."Grades" определение
+
+-- Drop table
+
+-- DROP TABLE public."Grades";
+
+CREATE TABLE public."Grades" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"Number" int4 NOT NULL,
+	"StartDate" date NOT NULL,
+	"EndDate" date NULL,
+	"NextGradeDate" date NULL,
+	"CurrentGradeRouteGroupId" int4 NULL,
+	"EmployeeStateBeforeGradeId" int4 NOT NULL,
+	"EmployeeStateAfterGradeId" int4 NULL,
+	"EmployeeId" int4 NOT NULL,
+	"GradeStatusId" int4 NOT NULL,
+	"GradeTypeId" int4 NOT NULL,
+	"GradeRouteId" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_Grades" PRIMARY KEY ("Id"),
+	CONSTRAINT "FK_Grades_EmployeeStates_EmployeeStateAfterGradeId" FOREIGN KEY ("EmployeeStateAfterGradeId") REFERENCES public."EmployeeStates"("Id"),
+	CONSTRAINT "FK_Grades_EmployeeStates_EmployeeStateBeforeGradeId" FOREIGN KEY ("EmployeeStateBeforeGradeId") REFERENCES public."EmployeeStates"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_Grades_Employees_EmployeeId" FOREIGN KEY ("EmployeeId") REFERENCES public."Employees"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_Grades_GradeRoutes_GradeRouteId" FOREIGN KEY ("GradeRouteId") REFERENCES public."GradeRoutes"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_Grades_GradeStatuses_GradeStatusId" FOREIGN KEY ("GradeStatusId") REFERENCES public."GradeStatuses"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_Grades_GradeTypes_GradeTypeId" FOREIGN KEY ("GradeTypeId") REFERENCES public."GradeTypes"("Id") ON DELETE CASCADE
+);
+CREATE INDEX "IX_Grades_EmployeeId" ON public."Grades" USING btree ("EmployeeId");
+CREATE INDEX "IX_Grades_EmployeeStateAfterGradeId" ON public."Grades" USING btree ("EmployeeStateAfterGradeId");
+CREATE INDEX "IX_Grades_EmployeeStateBeforeGradeId" ON public."Grades" USING btree ("EmployeeStateBeforeGradeId");
+CREATE INDEX "IX_Grades_GradeRouteId" ON public."Grades" USING btree ("GradeRouteId");
+CREATE INDEX "IX_Grades_GradeStatusId" ON public."Grades" USING btree ("GradeStatusId");
+CREATE INDEX "IX_Grades_GradeTypeId" ON public."Grades" USING btree ("GradeTypeId");
+
+
+-- public."Marks" определение
+
+-- Drop table
+
+-- DROP TABLE public."Marks";
+
+CREATE TABLE public."Marks" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"FactValue" int4 NOT NULL,
+	"Result" bool NOT NULL,
+	"Period" text NOT NULL,
+	"MarkTypeId" int4 NOT NULL,
+	"EmployeeId" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_Marks" PRIMARY KEY ("Id"),
+	CONSTRAINT "FK_Marks_Employees_EmployeeId" FOREIGN KEY ("EmployeeId") REFERENCES public."Employees"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_Marks_MarkTypes_MarkTypeId" FOREIGN KEY ("MarkTypeId") REFERENCES public."MarkTypes"("Id") ON DELETE CASCADE
+);
+CREATE INDEX "IX_Marks_EmployeeId" ON public."Marks" USING btree ("EmployeeId");
+CREATE INDEX "IX_Marks_MarkTypeId" ON public."Marks" USING btree ("MarkTypeId");
+
+
+-- public."Assessments" определение
+
+-- Drop table
+
+-- DROP TABLE public."Assessments";
+
+CREATE TABLE public."Assessments" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"Number" int4 NOT NULL,
+	"StartDate" date NOT NULL,
+	"EndDate" date NULL,
+	"NextAssessmentDate" date NULL,
+	"SystemStatus" int4 NOT NULL,
+	"EmployeeId" int4 NOT NULL,
+	"AssessmentTypeId" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_Assessments" PRIMARY KEY ("Id"),
+	CONSTRAINT "FK_Assessments_AssessmentTypes_AssessmentTypeId" FOREIGN KEY ("AssessmentTypeId") REFERENCES public."AssessmentTypes"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_Assessments_Employees_EmployeeId" FOREIGN KEY ("EmployeeId") REFERENCES public."Employees"("Id") ON DELETE CASCADE
+);
+CREATE INDEX "IX_Assessments_AssessmentTypeId" ON public."Assessments" USING btree ("AssessmentTypeId");
+CREATE INDEX "IX_Assessments_EmployeeId" ON public."Assessments" USING btree ("EmployeeId");
+
+
+-- public."Comments" определение
+
+-- Drop table
+
+-- DROP TABLE public."Comments";
+
+CREATE TABLE public."Comments" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"Text" text NOT NULL,
+	"IsFeedback" bool NOT NULL,
+	"EmployeeId" int4 NOT NULL,
+	"GradeId" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_Comments" PRIMARY KEY ("Id"),
+	CONSTRAINT "FK_Comments_Employees_EmployeeId" FOREIGN KEY ("EmployeeId") REFERENCES public."Employees"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_Comments_Grades_GradeId" FOREIGN KEY ("GradeId") REFERENCES public."Grades"("Id") ON DELETE CASCADE
+);
+CREATE INDEX "IX_Comments_EmployeeId" ON public."Comments" USING btree ("EmployeeId");
+CREATE INDEX "IX_Comments_GradeId" ON public."Comments" USING btree ("GradeId");
+
+
+-- public."EmployeeAttributes" определение
+
+-- Drop table
+
+-- DROP TABLE public."EmployeeAttributes";
+
+CREATE TABLE public."EmployeeAttributes" (
+	"EmployeeId" int4 NOT NULL,
+	"AttributeId" int4 NOT NULL,
+	"Value" text NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_EmployeeAttributes" PRIMARY KEY ("EmployeeId", "AttributeId"),
+	CONSTRAINT "FK_EmployeeAttributes_Attributes_AttributeId" FOREIGN KEY ("AttributeId") REFERENCES public."Attributes"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_EmployeeAttributes_Employees_EmployeeId" FOREIGN KEY ("EmployeeId") REFERENCES public."Employees"("Id") ON DELETE CASCADE
+);
+CREATE INDEX "IX_EmployeeAttributes_AttributeId" ON public."EmployeeAttributes" USING btree ("AttributeId");
+
+
+-- public."EmployeeGradeRouteGroups" определение
+
+-- Drop table
+
+-- DROP TABLE public."EmployeeGradeRouteGroups";
+
+CREATE TABLE public."EmployeeGradeRouteGroups" (
+	"EmployeeId" int4 NOT NULL,
+	"GradeRouteGroupId" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_EmployeeGradeRouteGroups" PRIMARY KEY ("EmployeeId", "GradeRouteGroupId"),
+	CONSTRAINT "FK_EmployeeGradeRouteGroups_Employees_EmployeeId" FOREIGN KEY ("EmployeeId") REFERENCES public."Employees"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_EmployeeGradeRouteGroups_GradeRouteGroups_GradeRouteGroupId" FOREIGN KEY ("GradeRouteGroupId") REFERENCES public."GradeRouteGroups"("Id") ON DELETE CASCADE
+);
+CREATE INDEX "IX_EmployeeGradeRouteGroups_GradeRouteGroupId" ON public."EmployeeGradeRouteGroups" USING btree ("GradeRouteGroupId");
+
+
+-- public."GradeResults" определение
+
+-- Drop table
+
+-- DROP TABLE public."GradeResults";
+
+CREATE TABLE public."GradeResults" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"ResultDate" date NOT NULL,
+	"GradeResultStatus" int4 NOT NULL,
+	"GradeRouteGroupId" int4 NOT NULL,
+	"GradeId" int4 NOT NULL,
+	"JudgeId" int4 NOT NULL,
+	"JudgedId" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_GradeResults" PRIMARY KEY ("Id"),
+	CONSTRAINT "FK_GradeResults_Employees_JudgeId" FOREIGN KEY ("JudgeId") REFERENCES public."Employees"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_GradeResults_Employees_JudgedId" FOREIGN KEY ("JudgedId") REFERENCES public."Employees"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_GradeResults_GradeRouteGroups_GradeRouteGroupId" FOREIGN KEY ("GradeRouteGroupId") REFERENCES public."GradeRouteGroups"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_GradeResults_Grades_GradeId" FOREIGN KEY ("GradeId") REFERENCES public."Grades"("Id") ON DELETE CASCADE
+);
+CREATE INDEX "IX_GradeResults_GradeId" ON public."GradeResults" USING btree ("GradeId");
+CREATE INDEX "IX_GradeResults_GradeRouteGroupId" ON public."GradeResults" USING btree ("GradeRouteGroupId");
+CREATE INDEX "IX_GradeResults_JudgeId" ON public."GradeResults" USING btree ("JudgeId");
+CREATE INDEX "IX_GradeResults_JudgedId" ON public."GradeResults" USING btree ("JudgedId");
+
+
+-- public."AssessmentResults" определение
+
+-- Drop table
+
+-- DROP TABLE public."AssessmentResults";
+
+CREATE TABLE public."AssessmentResults" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"ResultDate" date NULL,
+	"IsRequired" bool NOT NULL,
+	"SystemStatus" int4 NOT NULL,
+	"AssessmentId" int4 NOT NULL,
+	"JudgeId" int4 NOT NULL,
+	"JudgedId" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_AssessmentResults" PRIMARY KEY ("Id"),
+	CONSTRAINT "FK_AssessmentResults_Assessments_AssessmentId" FOREIGN KEY ("AssessmentId") REFERENCES public."Assessments"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_AssessmentResults_Employees_JudgeId" FOREIGN KEY ("JudgeId") REFERENCES public."Employees"("Id") ON DELETE CASCADE,
+	CONSTRAINT "FK_AssessmentResults_Employees_JudgedId" FOREIGN KEY ("JudgedId") REFERENCES public."Employees"("Id") ON DELETE CASCADE
+);
+CREATE INDEX "IX_AssessmentResults_AssessmentId" ON public."AssessmentResults" USING btree ("AssessmentId");
+CREATE INDEX "IX_AssessmentResults_JudgeId" ON public."AssessmentResults" USING btree ("JudgeId");
+CREATE INDEX "IX_AssessmentResults_JudgedId" ON public."AssessmentResults" USING btree ("JudgedId");
+
+
+-- public."AssessmentResultValues" определение
+
+-- Drop table
+
+-- DROP TABLE public."AssessmentResultValues";
+
+CREATE TABLE public."AssessmentResultValues" (
+	"Id" int4 GENERATED BY DEFAULT AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	"Value" int4 NOT NULL,
+	"AssessmentMatrixRow" int4 NOT NULL,
+	"AssessmentResultId" int4 NOT NULL,
+	"DateOfCreation" date NOT NULL,
+	CONSTRAINT "PK_AssessmentResultValues" PRIMARY KEY ("Id"),
+	CONSTRAINT "FK_AssessmentResultValues_AssessmentResults_AssessmentResultId" FOREIGN KEY ("AssessmentResultId") REFERENCES public."AssessmentResults"("Id") ON DELETE CASCADE
+);
+CREATE INDEX "IX_AssessmentResultValues_AssessmentResultId" ON public."AssessmentResultValues" USING btree ("AssessmentResultId");

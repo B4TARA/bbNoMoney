@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gHSnw5ERjxWTQdmrwwB5kB5uVFP7wFlTVgdeLMk18TA=",
+  "Hash": "Yh03Ujxg5VrVio+Yscou1oWsRBNaNs51BJnh4l5VN/4=",
   "Source": "KOP.WEB",
   "BasePath": "_content/KOP.WEB",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "KOP.WEB\\wwwroot",
       "Source": "KOP.WEB",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\bundle\\KOP.WEB.styles.css",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\bundle\\KOP.WEB.styles.css",
       "SourceId": "KOP.WEB",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "KOP.WEB#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "DESsjC7ZTUCkNZexKErWKJB+waQZKsNkqKcTGxKa02c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\bundle\\KOP.WEB.styles.css"
+      "OriginalItemSpec": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\bundle\\KOP.WEB.styles.css"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\KOP.WEB.bundle.scp.css",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\KOP.WEB.bundle.scp.css",
       "SourceId": "KOP.WEB",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "KOP.WEB#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "DESsjC7ZTUCkNZexKErWKJB+waQZKsNkqKcTGxKa02c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\KOP.WEB.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\KOP.WEB.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\css\\dashboard.css",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\css\\dashboard.css",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "css/dashboard#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\dashboard.css"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\css\\main_style.css",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\css\\main_style.css",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "css/main_style#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\css\\main_style.css"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\css\\style_matrix_table.css",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\css\\style_matrix_table.css",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "css/style_matrix_table#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style_matrix_table.css"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\css\\style_popup.css",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\css\\style_popup.css",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "css/style_popup#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style_popup.css"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\default_profile_icon.svg",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\default_profile_icon.svg",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "default_profile_icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\default_profile_icon.svg"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\favicon.ico",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\accept_arrow.svg",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\accept_arrow.svg",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "image/accept_arrow#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\image\\accept_arrow.svg"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\arrow_right.svg",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\arrow_right.svg",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "image/arrow_right#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\image\\arrow_right.svg"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\chevron-down-grey.svg",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\chevron-down-grey.svg",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "image/chevron-down-grey#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\image\\chevron-down-grey.svg"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\EmptyState.png",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\EmptyState.png",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "image/EmptyState#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\image\\EmptyState.png"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\men1.jpg",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\men1.jpg",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "image/men1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\image\\men1.jpg"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\men2.jpg",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\men2.jpg",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "image/men2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\image\\men2.jpg"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\men3.jpg",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\men3.jpg",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "image/men3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\image\\men3.jpg"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\men4.jpg",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\men4.jpg",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "image/men4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\image\\men4.jpg"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\men5.jpg",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\men5.jpg",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "image/men5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\image\\men5.jpg"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\undefinedpage.svg",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\undefinedpage.svg",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "image/undefinedpage#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\image\\undefinedpage.svg"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\woman1.jpg",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\woman1.jpg",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "image/woman1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\image\\woman1.jpg"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\woman2.jpg",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\woman2.jpg",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "image/woman2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\image\\woman2.jpg"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\woman3.jpg",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\woman3.jpg",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "image/woman3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\image\\woman3.jpg"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\woman4.jpg",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\woman4.jpg",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "image/woman4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\image\\woman4.jpg"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\woman5.jpg",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\woman5.jpg",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "image/woman5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\image\\woman5.jpg"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\analyticsScript.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\analyticsScript.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "js/analyticsScript#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\js\\analyticsScript.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\assessment\\assessment.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\assessment\\assessment.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "js/assessment/assessment#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\js\\assessment\\assessment.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\assessment\\chooseUsers.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\assessment\\chooseUsers.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "js/assessment/chooseUsers#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\js\\assessment\\chooseUsers.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\employeeScript.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\employeeScript.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "js/employeeScript#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\js\\employeeScript.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\historyScript.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\historyScript.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "js/historyScript#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\js\\historyScript.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\datepicker.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\datepicker.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "js/interface/datepicker#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\js\\interface\\datepicker.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\datepickerReport.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\datepickerReport.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "js/interface/datepickerReport#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\js\\interface\\datepickerReport.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\drawCountStatuses.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\drawCountStatuses.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "js/interface/drawCountStatuses#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\js\\interface\\drawCountStatuses.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\filter.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\filter.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "js/interface/filter#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\js\\interface\\filter.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\interface.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\interface.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "js/interface/interface#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\js\\interface\\interface.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\openPopupAdmin.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\openPopupAdmin.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "js/interface/openPopupAdmin#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\js\\interface\\openPopupAdmin.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\searchbar.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\searchbar.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "js/interface/searchbar#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\js\\interface\\searchbar.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\searchInput.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\searchInput.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "js/interface/searchInput#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -773,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\js\\interface\\searchInput.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\reportScript.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\reportScript.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "js/reportScript#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -794,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\js\\reportScript.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\supervisorScript.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\supervisorScript.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "js/supervisorScript#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\js\\supervisorScript.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -836,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -857,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -878,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -899,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -920,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -962,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -983,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1004,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1025,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1046,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1067,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\logo.svg",
+      "Identity": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\logo.svg",
       "SourceId": "KOP.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\",
       "BasePath": "_content/KOP.WEB",
       "RelativePath": "logo#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1091,7 +1091,7 @@
   "Endpoints": [
     {
       "Route": "css/dashboard.6fj15e8k9a.css",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\css\\dashboard.css",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\css\\dashboard.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1136,7 +1136,7 @@
     },
     {
       "Route": "css/dashboard.css",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\css\\dashboard.css",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\css\\dashboard.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1173,7 +1173,7 @@
     },
     {
       "Route": "css/main_style.css",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\css\\main_style.css",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\css\\main_style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1210,7 +1210,7 @@
     },
     {
       "Route": "css/main_style.xl3ez6i9or.css",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\css\\main_style.css",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\css\\main_style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "Route": "css/style_matrix_table.6njdz9j2mj.css",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\css\\style_matrix_table.css",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\css\\style_matrix_table.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1300,7 +1300,7 @@
     },
     {
       "Route": "css/style_matrix_table.css",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\css\\style_matrix_table.css",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\css\\style_matrix_table.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1337,7 +1337,7 @@
     },
     {
       "Route": "css/style_popup.2yaaxtyu7h.css",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\css\\style_popup.css",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\css\\style_popup.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1382,7 +1382,7 @@
     },
     {
       "Route": "css/style_popup.css",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\css\\style_popup.css",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\css\\style_popup.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1419,7 +1419,7 @@
     },
     {
       "Route": "default_profile_icon.6yvebp0ssp.svg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\default_profile_icon.svg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\default_profile_icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1464,7 +1464,7 @@
     },
     {
       "Route": "default_profile_icon.svg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\default_profile_icon.svg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\default_profile_icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1501,7 +1501,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1546,7 +1546,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1583,7 +1583,7 @@
     },
     {
       "Route": "image/accept_arrow.svg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\accept_arrow.svg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\accept_arrow.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1620,7 +1620,7 @@
     },
     {
       "Route": "image/accept_arrow.wdxx4hf1wr.svg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\accept_arrow.svg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\accept_arrow.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1665,7 +1665,7 @@
     },
     {
       "Route": "image/arrow_right.svg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\arrow_right.svg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\arrow_right.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1702,7 +1702,7 @@
     },
     {
       "Route": "image/arrow_right.wmfok995t8.svg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\arrow_right.svg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\arrow_right.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1747,7 +1747,7 @@
     },
     {
       "Route": "image/chevron-down-grey.qp3ta05mqe.svg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\chevron-down-grey.svg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\chevron-down-grey.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1792,7 +1792,7 @@
     },
     {
       "Route": "image/chevron-down-grey.svg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\chevron-down-grey.svg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\chevron-down-grey.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1829,7 +1829,7 @@
     },
     {
       "Route": "image/EmptyState.o8bgareaq7.png",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\EmptyState.png",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\EmptyState.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1874,7 +1874,7 @@
     },
     {
       "Route": "image/EmptyState.png",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\EmptyState.png",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\EmptyState.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1911,7 +1911,7 @@
     },
     {
       "Route": "image/men1.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\men1.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\men1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1948,7 +1948,7 @@
     },
     {
       "Route": "image/men1.jxumhne2yi.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\men1.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\men1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1993,7 +1993,7 @@
     },
     {
       "Route": "image/men2.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\men2.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\men2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2030,7 +2030,7 @@
     },
     {
       "Route": "image/men2.yg081c5gcu.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\men2.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\men2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2075,7 +2075,7 @@
     },
     {
       "Route": "image/men3.5uz8xc7dqc.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\men3.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\men3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2120,7 +2120,7 @@
     },
     {
       "Route": "image/men3.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\men3.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\men3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2157,7 +2157,7 @@
     },
     {
       "Route": "image/men4.88pvv5amht.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\men4.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\men4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2202,7 +2202,7 @@
     },
     {
       "Route": "image/men4.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\men4.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\men4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2239,7 +2239,7 @@
     },
     {
       "Route": "image/men5.9ti9z73dya.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\men5.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\men5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2284,7 +2284,7 @@
     },
     {
       "Route": "image/men5.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\men5.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\men5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2321,7 +2321,7 @@
     },
     {
       "Route": "image/undefinedpage.psnejijy0s.svg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\undefinedpage.svg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\undefinedpage.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2366,7 +2366,7 @@
     },
     {
       "Route": "image/undefinedpage.svg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\undefinedpage.svg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\undefinedpage.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2403,7 +2403,7 @@
     },
     {
       "Route": "image/woman1.cqk7wayueb.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\woman1.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\woman1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2448,7 +2448,7 @@
     },
     {
       "Route": "image/woman1.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\woman1.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\woman1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2485,7 +2485,7 @@
     },
     {
       "Route": "image/woman2.4904eh0z5c.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\woman2.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\woman2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2530,7 +2530,7 @@
     },
     {
       "Route": "image/woman2.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\woman2.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\woman2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2567,7 +2567,7 @@
     },
     {
       "Route": "image/woman3.ja0o5zc8yb.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\woman3.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\woman3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2612,7 +2612,7 @@
     },
     {
       "Route": "image/woman3.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\woman3.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\woman3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2649,7 +2649,7 @@
     },
     {
       "Route": "image/woman4.d1tihkw71b.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\woman4.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\woman4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2694,7 +2694,7 @@
     },
     {
       "Route": "image/woman4.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\woman4.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\woman4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2731,7 +2731,7 @@
     },
     {
       "Route": "image/woman5.7iioseqehg.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\woman5.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\woman5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2776,7 +2776,7 @@
     },
     {
       "Route": "image/woman5.jpg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\image\\woman5.jpg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\image\\woman5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2813,7 +2813,7 @@
     },
     {
       "Route": "js/analyticsScript.2ndqlphf7q.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\analyticsScript.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\analyticsScript.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2858,7 +2858,7 @@
     },
     {
       "Route": "js/analyticsScript.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\analyticsScript.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\analyticsScript.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2895,7 +2895,7 @@
     },
     {
       "Route": "js/assessment/assessment.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\assessment\\assessment.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\assessment\\assessment.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2932,7 +2932,7 @@
     },
     {
       "Route": "js/assessment/assessment.wwg7kbbsv3.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\assessment\\assessment.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\assessment\\assessment.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2977,7 +2977,7 @@
     },
     {
       "Route": "js/assessment/chooseUsers.f68y2458ze.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\assessment\\chooseUsers.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\assessment\\chooseUsers.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3022,7 +3022,7 @@
     },
     {
       "Route": "js/assessment/chooseUsers.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\assessment\\chooseUsers.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\assessment\\chooseUsers.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3059,7 +3059,7 @@
     },
     {
       "Route": "js/employeeScript.7r4qtc3pmx.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\employeeScript.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\employeeScript.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3104,7 +3104,7 @@
     },
     {
       "Route": "js/employeeScript.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\employeeScript.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\employeeScript.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3141,7 +3141,7 @@
     },
     {
       "Route": "js/historyScript.b3wu8h1ftt.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\historyScript.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\historyScript.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3186,7 +3186,7 @@
     },
     {
       "Route": "js/historyScript.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\historyScript.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\historyScript.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3223,7 +3223,7 @@
     },
     {
       "Route": "js/interface/datepicker.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\datepicker.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\datepicker.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3260,7 +3260,7 @@
     },
     {
       "Route": "js/interface/datepicker.qkgrdvduxs.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\datepicker.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\datepicker.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3305,7 +3305,7 @@
     },
     {
       "Route": "js/interface/datepickerReport.39jlsrq1u4.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\datepickerReport.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\datepickerReport.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3350,7 +3350,7 @@
     },
     {
       "Route": "js/interface/datepickerReport.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\datepickerReport.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\datepickerReport.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3387,7 +3387,7 @@
     },
     {
       "Route": "js/interface/drawCountStatuses.b0je2unp1g.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\drawCountStatuses.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\drawCountStatuses.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3432,7 +3432,7 @@
     },
     {
       "Route": "js/interface/drawCountStatuses.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\drawCountStatuses.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\drawCountStatuses.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3469,7 +3469,7 @@
     },
     {
       "Route": "js/interface/filter.87c6z2gcae.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\filter.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\filter.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3514,7 +3514,7 @@
     },
     {
       "Route": "js/interface/filter.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\filter.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\filter.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3551,7 +3551,7 @@
     },
     {
       "Route": "js/interface/interface.49k8zu8ptw.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\interface.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\interface.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3596,7 +3596,7 @@
     },
     {
       "Route": "js/interface/interface.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\interface.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\interface.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3633,7 +3633,7 @@
     },
     {
       "Route": "js/interface/openPopupAdmin.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\openPopupAdmin.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\openPopupAdmin.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3670,7 +3670,7 @@
     },
     {
       "Route": "js/interface/openPopupAdmin.ypm5x8mf71.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\openPopupAdmin.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\openPopupAdmin.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3715,7 +3715,7 @@
     },
     {
       "Route": "js/interface/searchbar.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\searchbar.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\searchbar.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3752,7 +3752,7 @@
     },
     {
       "Route": "js/interface/searchbar.lny62z767b.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\searchbar.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\searchbar.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3797,7 +3797,7 @@
     },
     {
       "Route": "js/interface/searchInput.d9hpmtkrrx.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\searchInput.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\searchInput.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3842,7 +3842,7 @@
     },
     {
       "Route": "js/interface/searchInput.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\searchInput.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\interface\\searchInput.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3879,7 +3879,7 @@
     },
     {
       "Route": "js/reportScript.0yr2p3rjap.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\reportScript.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\reportScript.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3924,7 +3924,7 @@
     },
     {
       "Route": "js/reportScript.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\reportScript.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\reportScript.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3961,7 +3961,7 @@
     },
     {
       "Route": "js/supervisorScript.fj8q900k4v.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\supervisorScript.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\supervisorScript.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4006,7 +4006,7 @@
     },
     {
       "Route": "js/supervisorScript.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\js\\supervisorScript.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\js\\supervisorScript.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4043,7 +4043,7 @@
     },
     {
       "Route": "KOP.WEB.4wnwjmz5di.bundle.scp.css",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\KOP.WEB.bundle.scp.css",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\KOP.WEB.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4088,7 +4088,7 @@
     },
     {
       "Route": "KOP.WEB.4wnwjmz5di.styles.css",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\bundle\\KOP.WEB.styles.css",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\bundle\\KOP.WEB.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4133,7 +4133,7 @@
     },
     {
       "Route": "KOP.WEB.bundle.scp.css",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\KOP.WEB.bundle.scp.css",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\KOP.WEB.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4170,7 +4170,7 @@
     },
     {
       "Route": "KOP.WEB.styles.css",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\bundle\\KOP.WEB.styles.css",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\obj\\Debug\\net6.0\\scopedcss\\bundle\\KOP.WEB.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4207,7 +4207,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4244,7 +4244,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dsw5v3fbc5.map",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4289,7 +4289,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4326,7 +4326,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4363,7 +4363,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.rm8d4uw1xt.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4408,7 +4408,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.ukz1g2vv03.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4453,7 +4453,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.afgyafcsqt.txt",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4498,7 +4498,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4535,7 +4535,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4572,7 +4572,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4609,7 +4609,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.sjab29p8z5.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4654,7 +4654,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.wus95c49fh.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4699,7 +4699,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.d2pxujwhw3.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4744,7 +4744,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4781,7 +4781,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.4dm14o4hmc.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4826,7 +4826,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4863,7 +4863,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4900,7 +4900,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4945,7 +4945,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.dvc2bfcndg.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4990,7 +4990,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5027,7 +5027,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5064,7 +5064,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.mt9h37ga6s.js",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5109,7 +5109,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5146,7 +5146,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.wqejeusuyq.txt",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5191,7 +5191,7 @@
     },
     {
       "Route": "logo.svg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\logo.svg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\logo.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5228,7 +5228,7 @@
     },
     {
       "Route": "logo.z7aey18ifj.svg",
-      "AssetFile": "C:\\Users\\tomchikadm\\Documents\\GitHub\\KOP-Remaster\\KOP\\KOP.WEB\\wwwroot\\logo.svg",
+      "AssetFile": "C:\\Users\\batureladm\\Documents\\GitHub\\bbNoMoney\\KOP\\KOP.WEB\\wwwroot\\logo.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {

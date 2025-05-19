@@ -1,0 +1,5 @@
+"Id","Name","HtmlClassName","SystemStatus","DateOfCreation"
+6,Отказано,failed,4,2024-07-17
+5,Одобрено,done,3,2024-07-17
+1,Оценка начальника,process,1,2024-07-17
+4,Финансовая оценка,yellow_indicator,1,2024-07-17
